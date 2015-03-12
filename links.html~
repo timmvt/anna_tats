@@ -23,7 +23,7 @@
 
 <body>
   <div id="main">
-        <div id="header">
+    <div id="header">
        <div id="logo">
          <div class="slogan">Anna Waychoff</div>
        </div>
@@ -38,22 +38,18 @@
           <li><a href="news.html">News</a></li>          
         </ul>
       </div>
-    </div>
-    <div id="site_content">
+      
+    </div>      
+    <div id="site_content"> 
       <div id="content">
         
-        <h1>About me</h1> </div>
- <div id="about">
-        <p> <span class="left"><img src="images/Anna.jpg" width="350" /></span></p>
-      <p>Anna Waychoff began tattooing in the summer of 1998 in East Tennessee where she lived and worked until 2011.
-	 Anna now resides in New Jersey and works at Powerhouse Tattoo in Montclair. 
-	 She travels often to tattoo in different locations throughout the US and abroad with fellow tattooer and partner, Eddie Peralta.</p>
+        <h1>Welcome to my website</h1>
+        <p> <span class="center"><img src="images/lady.png" width="650" /></span></p>
       
-<span class="left"></span>
-</div>
+      </div>
     </div>
     <div id="footer">
-      <p>Copyright &copy; 2015 Anna Waychoff    |    Design: <a href="mailto:skapheles@gmail.com">Joshua</a> & <a href="mailto:timmvt@gmail.com">Timm</a></p>
+      <p>Copyright &copy; Anna Waychoff | Design: <a href="mailto:skapheles@gmail.com">Joshua</a></p>
     </div>
   </div>
 </body>

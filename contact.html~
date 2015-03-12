@@ -23,7 +23,7 @@
 
 <body>
   <div id="main">
-        <div id="header">
+    <div id="header">
        <div id="logo">
          <div class="slogan">Anna Waychoff</div>
        </div>
@@ -38,22 +38,34 @@
           <li><a href="news.html">News</a></li>          
         </ul>
       </div>
-    </div>
-    <div id="site_content">
-      <div id="content">
-        
-        <h1>About me</h1> </div>
- <div id="about">
-        <p> <span class="left"><img src="images/Anna.jpg" width="350" /></span></p>
-      <p>Anna Waychoff began tattooing in the summer of 1998 in East Tennessee where she lived and worked until 2011.
-	 Anna now resides in New Jersey and works at Powerhouse Tattoo in Montclair. 
-	 She travels often to tattoo in different locations throughout the US and abroad with fellow tattooer and partner, Eddie Peralta.</p>
       
-<span class="left"></span>
-</div>
+    </div>      
+    <div id="site_content">    
+    <div id="content">
+        
+        <h1>Links</h1>
+
+        <h3>
+
+<a href="http://www.senzalatattoo.com">Senzala Tattoo</a><br>
+<a href="http://www.powerhousetattoo.com/home.html">Powerhouse Tattoo</a><br>
+<a href="http://www.blackanchortattoo.com">Black Anchor Tattoo</a><br>
+<a href="http://www.sainttattoo.com">Saint Tattoo</a><br>
+<a href="http://www.trueblueelectrictattoo.com">True Blue Electric Tattoo</a><br>
+<a href="http://www.southerndrawtattoo.net">Southern Draw Tattoo</a><br>
+<a href="http://www.mercyseattattoo.com">Mercy Seat Tattoo</a><br>
+<a href="http://www.bjbetts.com/State_Street.html">BJ Betts / State Street</a><br>
+<a href="https://www.facebook.com/pages/Grimm-Tattoos/213619520085">Grimm Tattoos</a><br>
+<a href="http://followgram.me/notmugsy">Mugsy</a><br>
+<a href="http://www.studioonechicago.com">Studio One Chicago</a><br>
+
+
+</h3>
+      
+      </div>
     </div>
     <div id="footer">
-      <p>Copyright &copy; 2015 Anna Waychoff    |    Design: <a href="mailto:skapheles@gmail.com">Joshua</a> & <a href="mailto:timmvt@gmail.com">Timm</a></p>
+      <p>Copyright &copy; Anna Waychoff | Design: <a href="mailto:skapheles@gmail.com">Joshua</a></p>
     </div>
   </div>
 </body>

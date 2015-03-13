@@ -2,6 +2,9 @@
 .sf-menu, .sf-menu * {
 	margin: 0;
 	padding: 0;
+	border-radius: 10px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#DFE7FA), to(#FFF));
+	
 }
 .sf-menu li {
 	position: relative;
@@ -44,7 +47,7 @@
 	float: center;
 	margin-bottom: 1em;
 	position: relative;
-	left: 10%;
+	left: 15%;
 }
 .sf-menu ul {
 	box-shadow: 2px 2px 6px rgba(0,0,0,.2);
@@ -55,7 +58,7 @@
 	border-left: 1px solid #fff;
 	/*border-top: 1px solid #C8C8C8; fallback colour must use full shorthand */
 	border-top: 1px solid rgba(255,255,255,.5);
-	padding: .75em 1.5em 1em 0.5em;
+	padding: .75em 0.5em 1.15em 0.5em;
 	text-decoration: none;
 	zoom: 1; /* IE7 */
 	
@@ -75,6 +78,19 @@
 .sf-menu ul li {
 	background: #FFF /*AABDE6*/;
 }
+
+.sf-menu li a:active {
+	background: -webkit-gradient(linear, left top, left bottom, from(#DFE7FA), to(#FFF));
+}
+
+.sf-menu li.current a
+{ background: #FFF;
+  border: 0px solid #ddd;
+  border-bottom: 0;
+  color: #F14E23;
+  
+}
+
 .sf-menu ul ul li {
 	background: #9AAEDB;
 }

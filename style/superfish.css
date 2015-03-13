@@ -2,9 +2,6 @@
 .sf-menu, .sf-menu * {
 	margin: 0;
 	padding: 0;
-	border-radius: 10px;
-	background: -webkit-gradient(linear, left top, left bottom, from(#DFE7FA), to(#FFF));
-	
 }
 .sf-menu li {
 	position: relative;
@@ -80,15 +77,14 @@
 }
 
 .sf-menu li a:active {
-	background: -webkit-gradient(linear, left top, left bottom, from(#DFE7FA), to(#FFF));
+	color: #F14E23;
 }
 
-.sf-menu li.current a
-{ background: #FFF;
-  border: 0px solid #ddd;
-  border-bottom: 0;
-  color: #F14E23;
-  
+.sf-menu li.current a {
+	background-color: #fff;
+	border: 0px solid #ddd;
+	border-bottom: 0;
+	color: #F14E23;
 }
 
 .sf-menu ul ul li {
@@ -99,12 +95,14 @@
 	left:-100%;
 }
 
-.sf-menu li:hover,
-.sf-menu li.sfHover {
-	background: #C8C8C8/*#CFDEFF*/;
+.sf-menu a:hover,
+.sf-menu a.sfHover {
+	background: #FFF /*#C8C8C8 #CFDEFF*/;
+	color: #F14E23;
 	/* only transition out, not in */
 	-webkit-transition: none;
 	transition: none;
+
 }
 
 /*** arrows (for all except IE7) **/

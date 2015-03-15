@@ -6,20 +6,13 @@
   <title>Anna Waychoff</title>
   <meta name="description" content="website description" />
   <meta name="keywords" content="website keywords, website keywords" />
-  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <meta http-equiv="content-type" content="text/html; charset=WINDOWS-1252" />
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine&amp;v1" />
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" />
   <link rel="stylesheet" type="text/css" href="style/style.css" />
   <script language="javascript" src="javascript/jquery-1.11.2.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="style/superfish.css" />
-  <link rel="stylesheet" type="text/css" href="style/superfish-vertical.css" />
+  <script> $(function(){   $("#footer").load("footer.html"); }); </script> 
   <script language="javascript" src="javascript/superfish.js"></script>
-  <script language="javascript">
-    $(document).ready(function() {
-	$('ul.sf-menu').superfish();
-    });
-  </script>
-  
 </head>
 
 <body id="about-me">
@@ -30,13 +23,13 @@
        </div>
       <div id="menubar">
         <ul class="sf-menu">
-          <li><a href="index.html" class="current">Home</a></li>
-          <li class="current"><a href="about.html" class="current">About Me</a></li>
-	       <li><a href="tattoos.html" class="current">Tattoo Gallery</a></li>
-	       <li><a href="paintings.html" class="current">Painting Gallery</a></li>
-          <li><a href="contact.html" class="current">Contact Us</a></li>
-          <li><a href="links.html" class="current">Links</a></li>
-          <li><a href="news.html" class="current">News</a></li>          
+          <li><a href="index.html">Home</a></li>
+          <li class="current"><a href="about.html">About Me</a></li>
+	       <li><a href="tattoos.html">Tattoo Gallery</a></li>
+	       <li><a href="paintings.html">Painting Gallery</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="links.html">Links</a></li>
+          <li><a href="news.html">News</a></li>          
         </ul>
       </div>
     </div>
@@ -53,9 +46,7 @@
 <span class="left"></span>
 </div>
     </div>
-    <div id="footer">
-      <p>Copyright &copy; 2015 Anna Waychoff    |    Design: <a href="mailto:skapheles@gmail.com">Joshua</a> & <a href="mailto:timmvt@gmail.com">Timm</a></p>
-    </div>
+    <div id="footer"></div>
   </div>
 </body>
 </html>

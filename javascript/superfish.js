@@ -6,7 +6,10 @@
  *	http://www.opensource.org/licenses/mit-license.php
  *	http://www.gnu.org/licenses/gpl.html
  */
-
+$(document).ready(function() {
+	$('ul.sf-menu').superfish();
+});
+    
 (function ($) {
 	"use strict";
 
